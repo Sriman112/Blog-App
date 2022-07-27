@@ -1,0 +1,12 @@
+<html>
+    <title>BLOG Creation</title>
+    <h1>Create blog</h1>
+    <body>
+    <form method="POST">
+        
+        {%csrf_token%}
+        {{form.as_p}}
+        <input type="Submit" value="Create blog">
+    </form>    
+    </body>
+</html>
